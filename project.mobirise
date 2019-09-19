@@ -1,0 +1,673 @@
+{
+  "settings": {
+    "name": "Site-09-15_0940",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Unna",
+        "display1Size": 4.5,
+        "display2Font": "Unna",
+        "display2Size": 2.2,
+        "display5Font": "Roboto Slab",
+        "display5Size": "1.5",
+        "display7Font": "Unna",
+        "display7Size": "1.4",
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.8",
+    "siteFonts": [
+      {
+        "css": "'Permanent Marker', handwriting",
+        "name": "Permanent Marker",
+        "url": "https://fonts.googleapis.com/css?family=Permanent+Marker:400"
+      },
+      {
+        "css": "'Gloria Hallelujah', handwriting",
+        "name": "Gloria Hallelujah",
+        "url": "https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400"
+      },
+      {
+        "css": "'Sigmar One', display",
+        "name": "Sigmar One",
+        "url": "https://fonts.googleapis.com/css?family=Sigmar+One:400"
+      },
+      {
+        "css": "'Kaushan Script', handwriting",
+        "name": "Kaushan Script",
+        "url": "https://fonts.googleapis.com/css?family=Kaushan+Script:400"
+      },
+      {
+        "css": "'Vidaloka', serif",
+        "name": "Vidaloka",
+        "url": "https://fonts.googleapis.com/css?family=Vidaloka:400"
+      },
+      {
+        "css": "'Unna', serif",
+        "name": "Unna",
+        "url": "https://fonts.googleapis.com/css?family=Unna:400,400i,700,700i"
+      },
+      {
+        "css": "'Antic Didone', serif",
+        "name": "Antic Didone",
+        "url": "https://fonts.googleapis.com/css?family=Antic+Didone:400"
+      },
+      {
+        "css": "'Yanone Kaffeesatz', sans-serif",
+        "name": "Yanone Kaffeesatz",
+        "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700"
+      },
+      {
+        "css": "'Anton', sans-serif",
+        "name": "Anton",
+        "url": "https://fonts.googleapis.com/css?family=Anton:400"
+      },
+      {
+        "css": "'Roboto Slab', serif",
+        "name": "Roboto Slab",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700"
+      },
+      {
+        "css": "'Pacifico', handwriting",
+        "name": "Pacifico",
+        "url": "https://fonts.googleapis.com/css?family=Pacifico:400"
+      }
+    ],
+    "uniqCompNum": 10,
+    "versionPublish": "4.10.10",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/received-759015437884437-128x118.png",
+    "noImageResize": "",
+    "сanonical-url": "",
+    "cleanCSS": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/received-759015437884438-1125x1030.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">&nbsp;</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">&nbsp;</h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                LEARN MORE\n            </a></div>\n    </div>\n\n</section>",
+          "_cid": "rC9aSpssbU",
+          "_anchor": "header1-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            },
+            "H2": {
+              "color": "#2e9a6b"
+            }
+          },
+          "_name": "content18",
+          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\"><span style=\"font-weight: normal;\">\n            ABOUT THE CREATOR</span></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\"><div><br></div><div><i>I am a creator and collector of oddities, skulls, bones, antique lanterns, feather wreaths &amp; other crafts.\n</i></div><div><i>I enjoy making custom pieces and creating art from ideas.&nbsp;</i><i style=\"font-family: inherit; font-size: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;\">Most pieces are priced individually, sourced locally &amp; naturally and are all</i></div><div><b>ONE OF A KIND.</b></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCesAOKKnf",
+          "_anchor": "content18-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "& when (@masonryStyle)": {
+              "@media (min-width: 992px)": {
+                ".mbr-row": {
+                  "flex-direction": "column",
+                  "height": "(@masonryHeight * 1rem)",
+                  "align-content": "center",
+                  "justify-content": "flex-start",
+                  ".item": {
+                    "height": "auto",
+                    "flex": "none",
+                    "max-width": "100%",
+                    "& when (@imageWidth = 2)": {
+                      "width": "50.00%"
+                    },
+                    "& when (@imageWidth = 3)": {
+                      "width": "33.33%"
+                    },
+                    "& when (@imageWidth = 4)": {
+                      "width": "25.00%"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& when not (@noPaddings)": {
+                ".container-fluid": {
+                  "padding-left": "(@spacing * 1rem)",
+                  "padding-right": "(@spacing * 1rem)"
+                },
+                ".item": {
+                  "padding": "(@spacing * 1rem)"
+                },
+                ".item-img": {
+                  "padding-bottom": "0"
+                }
+              },
+              "& when (@noPaddings)": {
+                ".mbr-row": {
+                  "margin": "0",
+                  "padding": "0"
+                },
+                ".container-fluid, .container": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".title": {
+              "& when (@spacing <= 2)": {
+                "padding-bottom": "((2 - @spacing) * 1rem)"
+              },
+              "& when (@spacing > 2)": {
+                "margin-bottom": "((2 - @spacing) * 1rem)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".item": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".item-sign": {
+              "margin": "0"
+            },
+            ".item-wrapper": {
+              "width": "100%",
+              "height": "100%",
+              "position": "relative"
+            },
+            "& when (@showText)": {
+              "amp-img": {
+                "&:after": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), @bgOpacity)",
+                  "position": "absolute",
+                  "left": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "top": "100%",
+                  "transition": "0.2s ease-in",
+                  "z-index": "1",
+                  "pointer-events": "none"
+                },
+                ".item-sign": {
+                  "position": "absolute",
+                  "left": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "padding": "10px",
+                  "z-index": "2",
+                  "transition": "0.2s ease-in",
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), @bgOpacity)",
+                  "color": "#ffffff"
+                }
+              },
+              "amp-img:hover": {
+                "&:after": {
+                  "top": "0%"
+                },
+                ".item-sign": {
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), 0)"
+                }
+              }
+            },
+            "& when (@squareStyle)": {
+              "amp-img, img": {
+                "object-fit": "cover",
+                "height": "300px",
+                "@media (min-width: 991px) and (max-width: 1199px)": {
+                  "height": "275px"
+                }
+              }
+            },
+            ".item-btn, .item-box-btn": {
+              "margin": "0"
+            },
+            ".item-box": {
+              "justify-content": "center",
+              "position": "relative",
+              "width": "100%",
+              "background": "#efefef",
+              "overflow": "auto",
+              "@media (min-width: 992px)": {
+                "max-width": "1000px"
+              },
+              "@media (max-width: 991px)": {
+                "width": "90%",
+                "margin": "1rem"
+              }
+            },
+            ".item-box-img": {
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
+              "amp-img": {
+                "height": "auto"
+              }
+            },
+            ".item-box-wrapper": {
+              "background-color": "#efefef",
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@customStyles)": {
+              "& when (@boxShadow)": {
+                ".item-wrapper": {
+                  "box-shadow": "0px 0px (@shadowSize * 1px) 0px rgba(red(@shadowColor), green(@shadowColor), blue(@shadowColor), @shadowOpacity)"
+                }
+              },
+              "& when (@hoverOverlay)": {
+                "amp-img": {
+                  "&:after": {
+                    "content": "\"\"",
+                    "pointer-events": "none",
+                    "transition": "0.4s",
+                    "position": "absolute",
+                    "top": "0",
+                    "left": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "opacity": "0",
+                    "background-color": "rgba(red(@hoverColor), green(@hoverColor), blue(@hoverColor), @hoverOpacity)"
+                  },
+                  "&:hover": {
+                    "&:after": {
+                      "opacity": "1"
+                    }
+                  }
+                }
+              },
+              "& when (@hoverIcon)": {
+                ".icon-wrap": {
+                  "position": "absolute",
+                  "left": "0",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "margin": "auto",
+                  "opacity": "0",
+                  "transition": "0.4s",
+                  "height": "(@iconSize * 1rem)",
+                  "width": "(@iconSize * 1rem)",
+                  "z-index": "2",
+                  "span": {
+                    "color": "@iconColor",
+                    "font-size": "(@iconSize * 1rem)"
+                  }
+                },
+                "amp-img:hover .icon-wrap": {
+                  "opacity": "1"
+                }
+              },
+              "& when (@useBorderRadius)": {
+                ".item-wrapper": {
+                  "z-index": "12",
+                  "border-radius": "(@borderRadius * 1px)",
+                  "overflow": "hidden"
+                }
+              }
+            },
+            "& when not (@customStyles)": {
+              ".icon-wrap": {
+                "display": "none"
+              }
+            },
+            ".item": {
+              "cursor": "pointer"
+            },
+            "& when (@noPaddings)": {
+              ".item": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#2e9a6b"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#04854e"
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"amp-lightbox-gallery\" group=\"Shop\" plugins=\"amp-main, amp-lightbox-gallery\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"checkbox\" name=\"masonryStyle\" title=\"Masonry Style\" condition=\"!squareStyle\">\n\t\t<input type=\"checkbox\" name=\"squareStyle\" title=\"Square Style\" condition=\"!masonryStyle\" checked=\"\">\n\t\t<input type=\"range\" min=\"50\" max=\"1000\" step=\"10\" value=\"70\" name=\"masonryHeight\" title=\"Height\" condition=\"masonryStyle\">\n\n\t\t<header>Show Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\n\t\t<header>Image</header>\n\t\t<input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"2\" max=\"4\" step=\"1\" value=\"4\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Show Text\" checked=\"\">\n\t\t<input type=\"color\" name=\"bgColor\" title=\"BG Color\" value=\"#2e9a6b\" condition=\"showText\">\n\t\t<input type=\"range\" name=\"bgOpacity\" title=\"Opacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" condition=\"showText\">\n\n\t\t<header condition=\"customStyle\">Custom Styles</header>\n\t\t<input type=\"checkbox\" name=\"noPaddings\" title=\"Without Padding\">\n\t\t<input type=\"checkbox\" name=\"customStyles\" title=\"Custom Style\">\n\n\t\t<header condition=\"customStyles\">Paddings</header>\n\t\t<input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"customStyles &amp;&amp; !noPaddings\">\n\n\t\t<header condition=\"customStyles\">Overlay</header>\n\t\t<input type=\"checkbox\" name=\"hoverOverlay\" title=\"Enable\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"hoverColor\" value=\"#4ea2e3\" title=\"Color\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"range\" name=\"hoverOpacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" title=\"Opacity\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"checkbox\" name=\"hoverIcon\" title=\"Show Icon\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"iconColor\" value=\"#ffffff\" title=\"Icon Color\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\t\t<input type=\"range\" name=\"iconSize\" title=\"Icon Size\" min=\"1\" max=\"3\" step=\"0.5\" value=\"1.5\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\n\t\t<header condition=\"customStyles\">Box Shadow</header>\n\t\t<input type=\"checkbox\" name=\"boxShadow\" title=\"Shadow\" condition=\"customStyles\">\n\t\t<input type=\"range\" name=\"shadowSize\" title=\"Size\" min=\"0\" max=\"100\" step=\"1\" value=\"10\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"range\" name=\"shadowOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"color\" name=\"shadowColor\" title=\"Color\" condition=\"customStyles &amp;&amp; boxShadow\">\n\n\t\t<header condition=\"customStyles\">Border Radius</header>\n\t\t<input type=\"checkbox\" name=\"useBorderRadius\" title=\"Round Border\" condition=\"customStyles\">\n\t\t<input type=\"range\" name=\"borderRadius\" title=\"Size\" min=\"0\" max=\"50\" step=\"1\" value=\"5\" condition=\"customStyles &amp;&amp; useBorderRadius\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required=\"\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t 'container-fluid': fullWidth}\">\n\t\t<div class=\"title mbr-pb-4\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Custom Item Examples</h3>\n\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-pt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>Antique Lanterns</i></h4>\n\t\t</div>\n\t\t<div class=\"mbr-row\">\n            <div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70004711-2578737958814297-4324167112198193152-n-698x931.jpg\" layout=\"responsive\" width=\"224.91944146079484\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Antique Lamps</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70004711-2578737958814297-4324167112198193152-n-698x931.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70914702-845150195878880-6926812805609816064-n-698x931.jpeg\" layout=\"responsive\" width=\"300\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Antique Lamps</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70914702-845150195878880-6926812805609816064-n-698x931.jpeg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/69880947-2428511297472620-6795365786782269440-n-1080x1920.jpg\" layout=\"responsive\" width=\"168.75\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Antique Lamps</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/69880947-2428511297472620-6795365786782269440-n-1080x1920.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/69877741-740541676375021-943278155114741760-n-1080x1920.jpg\" layout=\"responsive\" width=\"168.75\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Antique Lamps</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/69877741-740541676375021-943278155114741760-n-1080x1920.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70045083-1271565846349865-5523154859768938496-n-1-3024x4032.jpg\" layout=\"responsive\" width=\"225\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Terrariums</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70045083-1271565846349865-5523154859768938496-n-1-3024x4032.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70429000-2423457607942728-3477470238855921664-n-750x1334.jpg\" layout=\"responsive\" width=\"168.6656671664168\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Terrariums</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70429000-2423457607942728-3477470238855921664-n-750x1334.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70445263-2514755058584984-6007578676281999360-n-3024x4032.jpg\" layout=\"responsive\" width=\"225\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Skulls &amp; Bones</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70445263-2514755058584984-6007578676281999360-n-3024x4032.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/71080474-529636594438910-2366308941786251264-n-2080x3724.jpg\" layout=\"responsive\" width=\"167.56176154672394\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Skulls &amp; Bones</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/71080474-529636594438910-2366308941786251264-n-2080x3724.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70189416-752180921904147-1995080590382071808-n-3024x4032.jpg\" layout=\"responsive\" width=\"225\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Succulent Bulbs</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70189416-752180921904147-1995080590382071808-n-3024x4032.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/20190918-223616-1078x1437.jpeg\" layout=\"responsive\" width=\"300\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Glass Cork Top Vials</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/20190918-223616-1078x1437.jpeg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70855546-2655107424539366-498092575702384640-n-1536x2048.jpg\" layout=\"responsive\" width=\"225\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Glass Cork Top Vials<br></p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70855546-2655107424539366-498092575702384640-n-1536x2048.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/fb-img-1568861390970-1536x2048.jpg\" layout=\"responsive\" width=\"225\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Skulls &amp; Bones</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/fb-img-1568861390970-1536x2048.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/70212292-423850544927043-9217551651794059264-n-750x835.jpg\" layout=\"responsive\" width=\"269.4610778443114\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Feather Wreaths</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/70212292-423850544927043-9217551651794059264-n-750x835.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/69969951-589653838106559-3439204992236388352-n-750x1334.jpg\" layout=\"responsive\" width=\"168.6656671664168\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Feather Wreaths</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/69969951-589653838106559-3439204992236388352-n-750x1334.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/69843278-739984476447341-3037194889394651136-n-750x525.jpg\" layout=\"responsive\" width=\"428.57142857142856\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Skulls &amp; Bones</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/69843278-739984476447341-3037194889394651136-n-750x525.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"true\" src=\"@PROJECT_PATH@/assets/images/71087302-753070335127542-1474327054261420032-n-596x704.jpg\" layout=\"responsive\" width=\"253.97727272727272\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Chicken &amp; Wild Feathers</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/71087302-753070335127542-1474327054261420032-n-596x704.jpg\" alt=\"\" title=\"\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "rC9bNjixDx",
+          "_anchor": "gallery1-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>All orders can be customized with different items upon request.<br>We carry assorted Raw Skulls &amp; Bones, Antique Lanterns, <br>Glass Cork Top Vials (Pre-filled or filled with requested items), Terrariums, Chicken &amp; Wild Feather Wreaths, and Hanging Succulent Bulbs. <br>Lanterns come in&nbsp;\nsizes Small, medium, and Large &nbsp;<div>Prices vary depending on the contents requested.<br><br></div></div>\n    </div>\n</section>",
+          "_cid": "rCtY7rhyvb",
+          "_anchor": "content4-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "color": "inherit",
+                  "padding-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "box-sizing": "inherit",
+                      "position": "absolute",
+                      "left": "0px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "10px 15px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "10px",
+                      "height": "10px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@countersType = 'romb')": {
+                        "border-radius": "0",
+                        "-webkit-transform": "rotate(45deg)",
+                        "transform": "rotate(45deg)"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-text UL": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"content7 mbr-section\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#2e9a6b\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n            <option value=\"romb\" selected>Rhombus</option>\n\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-text counter-container mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n            <ul>\n                <li><b>Feather Wreaths - $35 </b>&nbsp;</li>\n                <li><b>Succulent Bulbs (Real or Faux) - $13</b></li>\n                <li><b>Glass Cork Top Vials - $7</b></li>\n            </ul>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCtXIgGrZv",
+          "_anchor": "content7-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin": "0.5rem"
+            },
+            ".mbr-section-btn > *, textarea, input": {
+              "margin": "0"
+            },
+            ".mbr-form": {
+              "margin-left": "-0.5rem",
+              "margin-right": "-0.5rem"
+            },
+            ".mbr-row when (@showSubtitle), (@showTitle)": {
+              "margin-top": "2rem"
+            },
+            "textarea, input, .area": {
+              "width": "100%"
+            },
+            ".area, .split-row": {
+              "padding": "0.5rem"
+            },
+            ".fieldset": {
+              "@media (min-width: 768px)": {
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                ".split-row": {
+                  "flex": "1 1 30%"
+                }
+              }
+            },
+            "input, textarea, select": {
+              "color": "@labelsColor !important",
+              "border": "1px solid @borderColor",
+              "&:hover, &:focus": {
+                "border-color": "@primaryColor"
+              },
+              "background": "@inputColor"
+            },
+            "input::-webkit-input-placeholder": {
+              "color": "fade(@labelsColor, 50%)"
+            },
+            "input::-moz-placeholder": {
+              "color": "fade(@labelsColor, 50%)"
+            },
+            "textarea::-webkit-input-placeholder": {
+              "color": "fade(@labelsColor, 50%)"
+            },
+            "textarea::-moz-placeholder": {
+              "color": "fade(@labelsColor, 50%)"
+            },
+            ".area": {
+              "width": "100%"
+            },
+            ".field": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding": ".5rem",
+              "margin": "0"
+            },
+            "label.area": {
+              "padding": ".5rem"
+            },
+            "textarea": {
+              "width": "100%",
+              "max-width": "100%",
+              "min-height": "200px"
+            },
+            "@media (max-width: 992px)": {
+              "label.input-label, textarea": {
+                "width": "100%"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#2e9a6b"
+            },
+            "H2": {
+              "color": "#2e9a6b"
+            }
+          },
+          "_name": "contacts2",
+          "_customHTML": "<section class=\"contacts2\" group=\"Contacts\" plugins=\"amp-main,amp-form,amp-mustache\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <input type=\"color\" title=\"Fields Color\" name=\"inputColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Form Text Color\" name=\"labelsColor\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-2\">Fill out the form below for</h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-subtitle\"><b>Custom Orders</b></h3>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div mbr-form class=\"mbr-col-lg-6  mbr-col-md-10 \">\n                <form class=\"mbr-form\" action=\"remnantsreincarnated@gmail.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate>\n                    <div class=\"mbr-row\">\n                      <div submit-success class=\"mbr-col-sm-12 mbr-col-md-12\">\n                          <template data-form-alert type=\"amp-mustache\">Your custom order request has been received! Please allow up to 48 hours for a response.</template>\n                      </div>\n                      <div submit-error class=\"mbr-col-sm-12 mbr-col-md-12\">\n                          <template data-form-alert type=\"amp-mustache\">Your custom order request has been received! Please allow up to 48 hours for a response.</template>\n                      </div>\n                    </div>\n                    <div class=\"mbr-row\">\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-4 mbr-col-lg-4\" data-for=\"form[data][1][1]\">\n                            <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Name\">\n                            <input class=\"field-input\" type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Name\" placeholder=\"First Name\" required>\n                        </div>\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-4 mbr-col-lg-4\" data-for=\"form[data][2][1]\">\n                            <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Phone\">\n                            <input class=\"field-input\" type=\"phone\" name=\"form[data][2][1]\" data-form-field=\"Phone\" placeholder=\"Last Name\" required>\n                        </div>\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-4 mbr-col-lg-4\" data-for=\"form[data][0][1]\">\n                            <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n                            <input class=\"field-input\" type=\"email\" name=\"form[data][0][1]\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                        </div>\n                        <div class=\"area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" data-for=\"form[data][3][1]\">\n                            <input type=\"hidden\" name=\"form[data][3][0]\" value=\"Message\">\n                            <textarea class=\"field-input\" name=\"form[data][3][1]\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Please provide a description of the item you would like here\"></textarea>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\"><a type=\"submit\" class=\"btn btn-form btn-success\" data-app-placeholder=\"Type Text\">Submit Custom Order Request</a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rC9dORCH3P",
+          "_anchor": "contacts2-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            },
+            ".wrapper": {
+              "text-align": "center"
+            },
+            ".icons-list": {
+              "a": {
+                "display": "inline-block",
+                "padding": "1rem",
+                "margin": ".5rem",
+                "background": "@iconsBg",
+                ".iconfont-wrapper": {
+                  "display": "inline-block",
+                  "width": "~\"@{iconsSize}rem\"",
+                  "height": "~\"@{iconsSize}rem\"",
+                  ".amp-iconfont": {
+                    "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+                    "font-size": "~\"@{iconsSize}rem\""
+                  }
+                }
+              }
+            },
+            "H1": {
+              "color": "#2e9a6b"
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#2e9a6b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>\n            Find us on Facebook!</b></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.facebook.com/remnantsreincarnated/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n                </span>\n            </a>\n            \n            \n            \n                \n                \n                \n                \n            </div>\n        </div>\n    </section>",
+          "_cid": "rC9dQS6rk1",
+          "_anchor": "social-follow-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "margin": "0",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e9a6b\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Remanants Reincarnated - All Rights Reserved</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "rC9dRCjxwe",
+          "_anchor": "footer1-6",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
